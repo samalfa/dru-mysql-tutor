@@ -12,7 +12,7 @@ $output .= '
   <div class="table-responsive">  
       <table class="table table-bordered">
           <tr>  
-              <th width="20%"><div align="center">Name</div></th> 
+              <th width="20%"><div align="center">Name</div></th>
               <th width="80%"><div align="center">City</div></th>
           </tr>'; 
 if(mysqli_num_rows($result) > 0) {  
@@ -35,6 +35,6 @@ $output .= '
       </table>  
   </div>';  
 
-echo $output;  
+echo $output;
 
 ?>
